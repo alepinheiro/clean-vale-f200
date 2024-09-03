@@ -11,7 +11,7 @@
             <p class="text-lg text-center text-zinc-600 w-3/4 mx-auto">
                 {{ $t("introSection.description") }}
             </p>
-            <NuxtImg src="/intro-video.png" alt="" />
+            <NuxtImg src="/intro-video.png" alt="" class="md:w-3/5 mx-auto px-5" />
 
             <div class="flex flex-col px-5 md:flex-row gap-8 md:gap-2">
                 <div v-for="item of cards" :key="item.title" class="flex flex-col items-start gap-2">
