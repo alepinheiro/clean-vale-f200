@@ -5,5 +5,6 @@
     <ProductSection />
     <BenefitsSection />
     <TestimonialsSection />
+    <ContactSection />
   </div>
 </template>

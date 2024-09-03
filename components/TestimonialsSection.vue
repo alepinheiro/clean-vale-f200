@@ -1,9 +1,9 @@
 <template>
   <section class="min-h-screen">
-    <div class="flex flex-row max-w-5xl mx-auto items-center gap-10">
-        <NuxtImg src="/testimonials-chef.png" class="h-full object-cover" />
+    <div class="flex flex-col md:flex-row max-w-5xl mx-auto items-center gap-10">
+        <NuxtImg src="/testimonials-chef.png" class=" h-96 md:h-full object-cover" />
 
-      <div class="w-2/3 overflow-hidden">
+      <div class="w-full md:w-2/3 overflow-hidden px-5">
         <h1 class="text-4xl font-bold text-purple-700">
           {{ $t("testimonialsSection.title") }}
         </h1>

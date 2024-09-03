@@ -1,10 +1,10 @@
 <template>
   <div class="min-h-screen relative z-0 flex flex-col py-24">
-    <div class="flex flex-row flex-wrap gap-5 max-w-5xl mx-auto">
+    <div class="flex flex-row flex-wrap gap-8 md:gap-5 max-w-5xl mx-auto px-5">
       <div
         v-for="item of cards"
         :key="item"
-        class="flex flex-col items-center gap-2 w-1/4 flex-grow text-center"
+        class="flex flex-col items-center gap-2 md:w-1/4 flex-grow text-center"
       >
         <NuxtImg src="/shield.png" />
         <h2 class="font-bold text-lg">
@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div class="max-w-5xl mx-auto py-8">
+    <div class="max-w-5xl mx-auto py-8 w-full">
       <Swiper
         :modules="[SwiperPagination, SwiperAutoplay]"
         :slidesPerView="3"

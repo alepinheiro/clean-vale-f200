@@ -11,14 +11,26 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.4",
+    "@nuxt/icon": "^1.5.0",
     "@nuxt/image": "^1.8.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/i18n": "^8.5.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@vee-validate/zod": "^4.13.2",
+    "@vueuse/core": "^11.0.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "nuxt": "^3.13.0",
     "nuxt-swiper": "^1.2.2",
     "radix-vue": "^1.9.5",
-    "vue": "latest"
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.5.2",
+    "vee-validate": "^4.13.2",
+    "vue": "latest",
+    "zod": "^3.23.8"
   },
-  "packageManager": "yarn@4.3.1+sha512.af78262d7d125afbfeed740602ace8c5e4405cd7f4735c08feb327286b2fdb2390fbca01589bfd1f50b1240548b74806767f5a063c94b67e431aabd0d86f7774"
+  "packageManager": "yarn@4.3.1+sha512.af78262d7d125afbfeed740602ace8c5e4405cd7f4735c08feb327286b2fdb2390fbca01589bfd1f50b1240548b74806767f5a063c94b67e431aabd0d86f7774",
+  "devDependencies": {
+    "tailwindcss-animate": "^1.0.7"
+  }
 }

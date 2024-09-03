@@ -13,7 +13,7 @@
             </p>
             <NuxtImg src="/intro-video.png" alt="" />
 
-            <div class="flex flex-row gap-2">
+            <div class="flex flex-col px-5 md:flex-row gap-8 md:gap-2">
                 <div v-for="item of cards" :key="item.title" class="flex flex-col items-start gap-2">
                     <NuxtImg :src="item.icon" />
                     <h3 class="font-bold text-lg text-purple-700">{{ item.title }}</h3>
