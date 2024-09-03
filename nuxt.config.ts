@@ -25,5 +25,10 @@ export default defineNuxtConfig({
     name: 'F200 - Detergente Alcalino - Clean Vale',
     description: 'A eficiência na higienização que a sua cozinha precisa',
     defaultLocale: 'br', // not needed if you have @nuxtjs/i18n installed
+  },
+  googleFonts: {
+    families: {
+      Montserrat: '100..900',
+    }
   }
 })
